@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkoutv2.328.0
 
       - name: Install dependencies
         run: |
